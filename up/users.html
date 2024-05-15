@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пользователи</title>
+    <link rel="stylesheet" href="ustyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Пользователи</h1>
+        <input type="text" id="userId" placeholder="Введите ID пользователя">
+        <button onclick="searchUser()">Найти пользователя</button>
+        <ul id="usersList">
+            <!-- пользователи -->
+        </ul>
+    </div>
+
+    <div class="navigation">
+        <button onclick="window.location.href='news.html'">Новости</button>
+        <button onclick="window.location.href='users.html'">Пользователи</button>
+        <button onclick="window.location.href='announcement.html'">Объявления</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="uscript.js"></script>
+</body>
+</html>

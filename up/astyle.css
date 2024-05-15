@@ -1,0 +1,56 @@
+.announcement {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.media {
+    display: flex;
+    align-items: center;
+}
+.media img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-right: 15px;
+}
+.media-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.small-text {
+    color: #666;
+}
+.btn-delete {
+    margin-left: auto;
+    background-color: rgb(255, 77, 79);
+    color: white;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navigation {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.navigation button {
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #ffffff;
+    display: block;
+}

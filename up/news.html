@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="nstyle.css">
+</head>
+<body>
+<div class="container">
+    <h1>Новости</h1>
+    <form id="addNewsForm">
+        <input type="text" id="title" placeholder="Заголовок новости" required>
+        <textarea id="description" placeholder="Описание новости" required></textarea>
+        <button type="submit">Добавить новость</button>
+    </form>
+    <ul id="newsList">
+        <!-- Новости -->
+    </ul>
+</div>
+<div class="navigation">
+    <button onclick="window.location.href='news.html'">Новости</button>
+    <button onclick="window.location.href='users.html'">Пользователи</button>
+    <button onclick="window.location.href='announcement.html'">Объявления</button>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="nscript.js"></script>
+</body>
+</html>
